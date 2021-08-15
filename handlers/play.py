@@ -34,7 +34,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="🔊 Channel",
-                        url="https://t.me/The_HellBot")
+                        url="https://t.me/Global_Music_GM")
                    
                 ]
             ]
@@ -157,7 +157,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo=thumb_name,
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {}".format(
+        caption="▶️ **Playing here** the song  \n**Requested By :-** {}".format(
         message.from_user.mention()
         ),
     )
