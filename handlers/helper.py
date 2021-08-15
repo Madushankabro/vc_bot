@@ -9,17 +9,17 @@ from helpers.filters import command, other_filters2, other_filters
 @Client.on_message(command("help") & other_filters2)
 async def helper(ok, message: Message):
     await message.reply_text(
-        f"""💞 Hello! Following are the commands available for **{bn}** - __A Group Voice Chat Music Player__.
+        f""" Hello! Following are the commands available for **{bn}** - __A Group Voice Chat Music Player__.
 The commands I currently support are:
 
-🔥 **Users Commands :**
+ **𝔘𝔰𝔢𝔯𝔰 ℭ𝔬𝔪𝔪𝔞𝔫𝔡𝔰 :**
 ⚜️ /play - **[ Groups Only ]** > __Plays the replied audio file or YouTube video through link.__
 ⚜️ /song - **[ Groups & DM ]** > __Uploads the searched song in the chat.__
 ⚜️ /ytplay - **[ Groups Only ]** > __Plays the song directly from YouTube Search.__
 ⚜️ /repo - **[ DM Only ]** > __Gets the source code and YouTube Tutorial Video.__
 
 
-🔰 **Admin & Sudo Users Commands :**
+ **𝔄𝔡𝔪𝔦𝔫 &amp; 𝔖𝔲𝔡𝔬 𝔘𝔰𝔢𝔯𝔰 ℭ𝔬𝔪𝔪𝔞𝔫𝔡𝔰 :**
 ⚜️ /pause - **[Groups Only ]** > __Pause Voice Chat Music.__
 ⚜️ /resume - **[Groups Only ]** > __Resume Voice Chat Music.__
 ⚜️ /skip - **[Groups Only ]** > __Skips the current Music Playing In Voice Chat.__
